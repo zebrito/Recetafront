@@ -1,0 +1,29 @@
+body {background-color: black;
+  background-image: url(../imagenes/bckimg.jpg);
+  background-position: center;
+  background-repeat: repeat-y;
+}
+.titulo {color: #FF5733; font-size: 100 ;text-decoration: underline; text-align: center;}
+.subs{text-align: center; color: #FF0000}
+img{width: 300px; height: 300px; }
+.tres{text-align: center; color:#00FFCC; font-size: 42}
+p{font-weight: bold; text-align: center; }
+header{background-color: #00C7C7; margin: 2px 2px 2px 2px; }
+nav{background-color: White;
+  text-align: center;
+  border-style: solid;
+  text-decoration-style: solid;
+padding-top: 5px;
+padding-bottom: 5px
+}
+.prepa{background-color: red; }
+.ingredientes{background-color: white;}
+footer{background-color: black;}
+.insta{width: 50px;height: 50px;}
+.face{width: 50px;height: 50px;}
+.wsp{ position: fixed;
+  margin-left:1300px;
+  margin-top: 600px;
+}
+.wsp img{  width: 150px;
+  height: 120px}
