@@ -3,12 +3,24 @@ body {background-color: black;
   background-position: center;
   background-repeat: repeat-y;
 }
-.titulo {color: #FF5733; font-size: 100 ;text-decoration: underline; text-align: center;}
+.titulo {color: #FF5733; font-size: 100 ; }
 .subs{text-align: center; color: #FF0000}
 img{width: 300px; height: 300px; }
 .tres{text-align: center; color:#00FFCC; font-size: 42}
 p{font-weight: bold; text-align: center; }
-header{background-color: #00C7C7; margin: 2px 2px 2px 2px; }
+header{display: flex;
+  justify-content: center;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   background-color: #F5CBA7 ;
+  padding: 10px,10px,10px,10px}
+  header img{ width: 100px; height: 100px}
+.redes-1{padding-left: 50px; margin-right: 50px ;background-color: #FF1F00;
+display: flex;
+justify-content: center;
+justify-content: space-between;
+align-items: center;}
+.redes-1 img{margin-left: : 50px; margin-right: 50px ;width: 50px; height: 50px;}
 nav{background-color: White;
   text-align: center;
   border-style: solid;
@@ -16,14 +28,20 @@ nav{background-color: White;
 padding-top: 5px;
 padding-bottom: 5px
 }
+.infoextra{display: flex; justify-content: center;}
+.infoextra iframe{display: flex; justify-content: center;align-items: flex-end;
+padding-bottom: 20px}
 .prepa{background-color: red; }
 .ingredientes{background-color: white;}
-footer{background-color: black;}
-.insta{width: 50px;height: 50px;}
-.face{width: 50px;height: 50px;}
-.wsp{ position: fixed;
-  margin-left:1300px;
-  margin-top: 600px;
-}
-.wsp img{  width: 150px;
-  height: 120px}
+footer{background-color: #005659;
+  display: flex;
+justify-content: space-around;
+flex-wrap: wrap;}
+.redes-2{padding-left: 50px;margin-right: 50px; background-color: #F5CBA7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;}
+.redes-2 img{margin-left: : 50px; margin-right: 50px ;width: 50px; height: 50px;}
+.map iframe{ display: flex;width: 200px; height: 150px; align-items: center;}
+.creador h3{ display: flex; color: Red;font-weight: bolder; text-align: center; align-items: center;}
