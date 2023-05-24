@@ -3,45 +3,116 @@ body {background-color: black;
   background-position: center;
   background-repeat: repeat-y;
 }
-.titulo {color: #FF5733; font-size: 100 ; }
+
+@font-face { font-family: "bar1"; src: url("../fuentes/bar1.ttf") format('truetype') ;}
+
+h1 {color: #FF5733; font-size: 3rem ; font-family: 'Barlow Condensed', sans-serif;}
+
 .subs{text-align: center; color: #FF0000}
+
 img{width: 300px; height: 300px; }
 .tres{text-align: center; color:#00FFCC; font-size: 42}
-p{font-weight: bold; text-align: center; }
+
+
 header{display: flex;
-  justify-content: center;
-   justify-content: space-around;
-   flex-wrap: wrap;
-   background-color: #F5CBA7 ;
-  padding: 10px,10px,10px,10px}
-  header img{ width: 100px; height: 100px}
-.redes-1{padding-left: 50px; margin-right: 50px ;background-color: #FF1F00;
-display: flex;
-justify-content: center;
-justify-content: space-between;
-align-items: center;}
-.redes-1 img{margin-left: : 50px; margin-right: 50px ;width: 50px; height: 50px;}
-nav{background-color: White;
+       justify-content: center;
+       justify-content: space-around;
+       align-items: center;
+       flex-wrap: wrap;
+       background-color: #F5CBA7 ;
+  }
+
+  header img{width: 100px;
+             height: 100px}
+
+.redes-1{background-color: #FF1F00;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         justify-content: space-around;}
+
+.redes-1 img{display: flex;
+             justify-content:space-around;
+             margin: 10px ;
+             width: 50px;
+             height: 50px;}
+
+nav {display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+  font-family: "bar1";}
+
+
+
+nav{background-color: #993E1D;
   text-align: center;
   border-style: solid;
-  text-decoration-style: solid;
-padding-top: 5px;
-padding-bottom: 5px
-}
-.infoextra{display: flex; justify-content: center;}
-.infoextra iframe{display: flex; justify-content: center;align-items: flex-end;
-padding-bottom: 20px}
-.prepa{background-color: red; }
-.ingredientes{background-color: white;}
+  text-decoration-style: solid;}
+
+.banner {display: flex;
+justify-content: center;
+align-items: center;}
+
+.recetoide {display: flex;
+            justify-content: space-around;
+            border-color: black;
+          font-family: "bar1"}
+
+.ingredientes{display: flex;
+              width: 35vw;
+              align-items: center;
+              font-size: 1em;
+              justify-content: center;
+              background-color: white;}
+
+.prepa{display: flex;
+       width: 65vw;
+       align-items: center;
+       justify-content: center;
+       background-color: red;
+       color: White;}
+
+.infoextra{display: flex;
+           justify-content: center;
+           color: white;}
+
+.vid {display: flex;
+      color: white;
+     justify-content: center;
+   font-family: 'Barlow Condensed', sans-serif;}
+
+.infoextra iframe{display: flex;
+                  justify-content:
+                  center;align-items: flex-end;
+                  padding-bottom: 20px}
+
 footer{background-color: #005659;
-  display: flex;
-justify-content: space-around;
-flex-wrap: wrap;}
+       display: flex;
+       justify-content: space-around;
+       flex-wrap: wrap;}
+
 .redes-2{padding-left: 50px;margin-right: 50px; background-color: #F5CBA7;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-between;}
-.redes-2 img{margin-left: : 50px; margin-right: 50px ;width: 50px; height: 50px;}
-.map iframe{ display: flex;width: 200px; height: 150px; align-items: center;}
-.creador h3{ display: flex; color: Red;font-weight: bolder; text-align: center; align-items: center;}
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;}
+
+.redes-2 img{margin-left: : 50px;
+              margin-right: 50px ;
+                width: 50px;
+                  height: 50px;}
+
+.map iframe{display: flex;
+              width: 200px;
+                height: 150px;
+                  align-items: center;}
+
+.creador h3{ display: flex;
+              color: Red;
+                font-weight: bolder;
+                  text-align: center;
+                    align-items: center;}
+
+a:link {color: #FFFFFF}
+a:visited {color: #CCCCCC}
+a:active{color: red;}
