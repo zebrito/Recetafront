@@ -1,10 +1,30 @@
-body {background-color: black;
-  background-image: url(../imagenes/bckimg.jpg);
+body {background-color: #D97904;
   background-position: center;
   background-repeat: repeat-y;
 }
 
 @font-face { font-family: "bar1"; src: url("../fuentes/bar1.ttf") format('truetype') ;}
+
+.bannerpc {width: 100%;
+  display: flex;
+  justify-content: center;}
+
+@media (max-width: 700px) { .bannerpc
+  {display: none}
+}
+
+.fotocelu {width: 100%;
+  display: flex;
+  justify-content: center;}
+
+@media (min-width: 700px) { .fotocelu
+  {display: none}
+}
+
+@media (max-width: 700px) { body
+  {background-image: none;
+ background-color: #D9B504 }
+}
 
 h1 {color: #FF5733; font-size: 3rem ; font-family: 'Barlow Condensed', sans-serif;}
 
@@ -54,9 +74,9 @@ justify-content: center;
 align-items: center;}
 
 .recetoide {display: flex;
-            justify-content: space-around;
+            justify-content: space-between;
             border-color: black;
-          font-family: "bar1"}
+            font-family: "bar1"}
 
 .ingredientes{display: flex;
               width: 35vw;
