@@ -7,7 +7,9 @@ body {background-color: #D97904;
 
 .bannerpc {width: 100%;
   display: flex;
-  justify-content: center;}
+  justify-content: center;
+margin-top: 3%;
+margin-bottom: 3%;}
 
 @media (max-width: 700px) { .bannerpc
   {display: none}
@@ -34,12 +36,13 @@ img{width: 300px; height: 300px; }
 .tres{text-align: center; color:#00FFCC; font-size: 42}
 
 
-header{display: flex;
+header{background-color: #F5CBA7 ;
+  display: flex;
        justify-content: center;
        justify-content: space-around;
        align-items: center;
        flex-wrap: wrap;
-       background-color: #F5CBA7 ;
+
   }
 
   header img{width: 100px;
@@ -69,9 +72,9 @@ nav{background-color: #993E1D;
   border-style: solid;
   text-decoration-style: solid;}
 
-.banner {display: flex;
-justify-content: center;
-align-items: center;}
+  .banner {display: flex;
+    justify-content: center;
+    align-items: center;}
 
 .recetoide {display: flex;
             justify-content: space-between;
@@ -83,14 +86,17 @@ align-items: center;}
               align-items: center;
               font-size: 1em;
               justify-content: center;
-              background-color: white;}
+              background-color: white;
+              }
 
 .prepa{display: flex;
        width: 65vw;
        align-items: center;
        justify-content: center;
        background-color: red;
-       color: White;}
+       color: white;}
+
+.ing{color: black;}
 
 .infoextra{display: flex;
            justify-content: center;
@@ -109,7 +115,9 @@ align-items: center;}
 footer{background-color: #005659;
        display: flex;
        justify-content: space-around;
-       flex-wrap: wrap;}
+       align-items: center;
+       flex-wrap: wrap;
+     text-align: center;}
 
 .redes-2{padding-left: 50px;margin-right: 50px; background-color: #F5CBA7;
         display: flex;
